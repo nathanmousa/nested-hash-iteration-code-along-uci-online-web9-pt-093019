@@ -18,7 +18,7 @@ require 'pry'
 #  contacts.each do |name, data|
 #    if name == "Freddy Mercury"
 #      data.each do |key, data|
-#        data.shift if key == :favorite_ice_cream_flavors
+#        data.shift if key == :favorite_ice_cream_flavors #Doesn't work in real word situation
 #      end
 #    end
 #  end
